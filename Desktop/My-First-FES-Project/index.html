@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <section>
@@ -16,23 +17,26 @@
         </ul>
       </nav>
       <header>
+        <div class="row">
         <div>
           <h1>Best place to learn frontend</h1>
-          <p>
-            Goo from being an absolute beginner to pro with a simplified process
+          <p class="subheader">
+            Go from being an absolute beginner to pro with a simplified process
           </p>
           <button>Start now</button>
         </div>
         <figure>
           <img src="./assets/laptop.png" alt="home page image" />
         </figure>
+        </div>
       </header>
     </section>
     <main>
       <section id="about">
         <h2>About</h2>
-        <div>
-          <p>
+        <div class="section__description">
+        <div class="section__description--wrapper">
+          <p class="section__description--para">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -51,14 +55,15 @@
             culpa qui officia deserunt mollit anim id est laborum
           </p>
         </div>
-        <figure>
+        <figure class="about__img--wrapper">
           <img src="./assets/about.jpg" />
         </figure>
+        </div>
       </section>
       <section>
         <h2>Discord</h2>
         <figure>
-          <img src="./assets/discord.jpg" />
+          <img src="./assets/discord.png" />
         </figure>
         <div>
           <p>
