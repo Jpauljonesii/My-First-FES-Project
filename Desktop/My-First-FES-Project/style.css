@@ -112,6 +112,9 @@ img {
     width: 100%;
 }
 
+.about {
+    width: 300px;
+}
 .section__description--wrapper {
     width: 60%;
     
@@ -140,6 +143,11 @@ Discord
     background-color: #cefeff;
 }
 
+.discord {
+    width: 300px;
+}
+
+
 /*
 
 Contact 
@@ -163,6 +171,7 @@ input, textarea {
     font-size: 20px;
     padding: 6px 12px;
 }
+
 
 /*
 
