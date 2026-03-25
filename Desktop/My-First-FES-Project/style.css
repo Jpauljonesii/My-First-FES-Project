@@ -113,7 +113,7 @@ img {
 }
 
 .about {
-    width: 300px;
+    width: 100%;
 }
 .section__description--wrapper {
     width: 60%;
@@ -144,7 +144,7 @@ Discord
 }
 
 .discord {
-    width: 300px;
+    width: 100%;
 }
 
 
